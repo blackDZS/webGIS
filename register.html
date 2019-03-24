@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Register</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/signin.css">
+</head>
+
+<body>
+    <div class="form-signin">
+        <h1 class="h3 mb-3 font-weight-normal">Please register</h1>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <label for="reInputPassword" class="sr-only">reInputPassword</label>
+        <input type="password" id="reInputPassword" class="form-control" placeholder="Reinput password" required>
+        <label for="relName" class="sr-only">relName</label>
+        <input type="text" id="relName" class="form-control" placeholder="Real name" required>
+        <label for="telephone" class="sr-only">telephone</label>
+        <input type="tel" id="telephone" class="form-control" placeholder="Telephone" required>
+        <div class="checkbox mb-3">
+            <label>
+                <a style="padding-left: 3px;" href="index.html">Sign in</a>
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" id="register">Register</button>
+    </div>
+
+    <!-- Button trigger modal -->
+    <button id="alert" type="button" class="btn btn-primary hidden" data-toggle="modal"
+        data-target="#exampleModal"></button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="alertContent">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
