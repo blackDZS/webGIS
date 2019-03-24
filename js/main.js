@@ -2,7 +2,7 @@ $(document).ready(function () {
     $('#submit').on('click', function () {
         $.ajax({
             type: "POST",
-            url: "../php/index.php",
+            url: "php/index.php",
             data: {
                 target: "login",
                 email: $('#inputEmail').val(),
@@ -18,7 +18,7 @@ $(document).ready(function () {
     $('#register').on('click', function () {
         $.ajax({
             type: "POST",
-            url: "../php/index.php",
+            url: "php/index.php",
             data: {
                 target: "register",
                 email: $('#inputEmail').val(),
